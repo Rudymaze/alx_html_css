@@ -10,7 +10,7 @@
 
 body {
   width: 100%;
-  height: 3718px;
+  height: 4000px;
   top: -0px;
   margin-left: -0px;
   color: #ffffff;
@@ -225,4 +225,40 @@ section div p {
 
 .smile-3 img {
   border-radius: 50%;
+}
+
+/* Testimonial section */
+
+.testimonial-1 {
+  width: 100%;
+  height: 392px;
+  margin-left: 0px;
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c271ff;
+  color: #ffffff;
+}
+
+.blockquote-div {
+  width: 943px;
+  height: 120px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.blockquote {
+  margin-top: 50px;
+  margin-left: 40px;
+  word-spacing: 3px;
+  line-height: 24px;
+}
+
+.blockquote h3 {
+  margin-top: 20px;
+  padding-left: 0px;
+  justify-content: first baseline;
 }
