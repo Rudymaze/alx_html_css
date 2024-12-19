@@ -1,0 +1,228 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(source.pro.otf);
+}
+
+body {
+  width: 100%;
+  height: 3718px;
+  top: -0px;
+  margin-left: -0px;
+  color: #ffffff;
+}
+
+header {
+  width: 1103.41px;
+  height: 40px;
+  top: 35.02px;
+  margin-left: 171.59px;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+header nav img {
+  width: 167.02px;
+  height: 29px;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+
+header nav ul {
+  width: 234px;
+  height: 15px;
+  /* margin-top: 0px; */
+  margin-left: 1000px;
+  text-decoration: none;
+  display: flex;
+}
+
+header nav ul li a {
+  font-family: myFont;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 10px;
+  /* color: #ffffff; */
+}
+
+ul li a {
+  font-family: myFont;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15.08px;
+}
+
+.list_1 {
+  width: 50px;
+  height: 15px;
+}
+
+.list_2 {
+  width: 45px;
+  height: 15px;
+  margin-left: 50px;
+}
+
+.list_3 {
+  width: 34px;
+  height: 15px;
+  margin-left: 50px;
+}
+
+/* main section */
+main {
+  width: 100%;
+  height: 1093px;
+  background-image: url(/css_advanced/image/Object.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.main-div {
+  width: 700px;
+  height: 220px;
+  margin-top: 220px;
+  margin-left: 377px;
+}
+
+main div h1 {
+  font-family: myFont;
+  font-weight: 700;
+  font-size: 122.84px;
+  line-height: 150px;
+  text-align: center;
+}
+
+.span-1 {
+  width: 52px;
+  height: 20px;
+  margin-top: 361px;
+  margin-left: 230px;
+  font-family: myFont;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.span-2 {
+  width: 36px;
+  height: 20px;
+  margin-top: 361px;
+  margin-left: 60px;
+  font-family: myFont;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.span-3 {
+  width: 49px;
+  height: 20px;
+  margin-top: 361px;
+  margin-left: 60px;
+  font-family: myFont;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+main div button {
+  width: 162px;
+  height: 44px;
+  margin-top: 25px;
+  margin-left: 292px;
+  border-radius: 22px;
+  background-color: #c271ff;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+}
+.Register-btn {
+  width: 100%;
+  height: 18px;
+  margin-top: 4px;
+  margin-left: 3px;
+  font-family: myFont;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* main section 2 */
+
+main section div h2 {
+  width: 290px;
+  height: 40px;
+  margin-top: 200px;
+  margin-left: 604px;
+  font-family: myFont;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40.22px;
+  text-align: center;
+}
+main section div h2 span {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40.22px;
+  color: #c271ff;
+  text-align: center;
+}
+
+/* Pros section edit */
+
+.Pros-section {
+  width: 1009px;
+  height: 193px;
+  margin-left: 280px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section div h3 {
+  width: 150px;
+  height: 27px;
+  margin-top: 5px;
+  font-family: Myfont;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+section div p {
+  width: 150px;
+  height: 48px;
+  margin-top: 5px;
+  font-family: Myfont;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 24px;
+  text-align: center;
+}
+
+.smile-3 img {
+  border-radius: 50%;
+}
