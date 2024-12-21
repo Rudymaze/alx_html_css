@@ -488,3 +488,34 @@ h4 {
   font-size: 14px;
   line-height: 26px;
 }
+
+/* F.A.Q SECTION */
+
+.FAQ-Section {
+  width: 920px;
+  height: 707px;
+  margin-top: 70px;
+  justify-self: center;
+  /* margin-left: 250px; */
+  background-color: #98a9c0;
+  border: 2px solid #ffffff;
+}
+
+.fag-header {
+  width: 10px;
+  height: 20px;
+  margin-top: -207px;
+  margin-left: -300px;
+  font-family: "MyFonts", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26.42px;
+  color: #071629;
+}
+
+.fag-body {
+  width: 100%;
+  height: 600px;
+  display: grid;
+  border: 2px solid #000000;
+}
