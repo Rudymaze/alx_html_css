@@ -60,6 +60,12 @@ nav a {
   line-height: 15.08px;
 }
 
+nav a:hover {
+  color: #c271ff;
+  text-decoration: underline;
+  transition: 0.25s;
+}
+
 .nav-links {
   margin-top: -20px;
 }
@@ -170,6 +176,11 @@ main div button {
   color: #ffffff;
 }
 
+button:hover {
+  cursor: pointer;
+  background-color: #9c31ed;
+  transition: 0.25s;
+}
 /* main section 2 */
 
 main section div h2 {
