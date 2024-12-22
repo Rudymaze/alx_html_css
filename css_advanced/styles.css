@@ -36,28 +36,32 @@ header nav img {
   margin-left: 5px;
 }
 
-header nav ul {
+header nav div {
   width: 234px;
   height: 15px;
   /* margin-top: 0px; */
-  margin-left: 1000px;
+  margin-left: 900px;
   text-decoration: none;
   display: flex;
 }
 
-header nav ul li a {
+header nav div a {
   font-family: "MyFont", sans-serif;
   text-decoration: none;
   list-style: none;
   margin-right: 10px;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
-ul li a {
+nav a {
   font-family: "MyFont", sans-serif;
   font-weight: 700;
   font-size: 12px;
   line-height: 15.08px;
+}
+
+.nav-links {
+  margin-top: -20px;
 }
 
 .list_1 {
