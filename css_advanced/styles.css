@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: "MyFont-lite";
-  src: url(./fonts/SourceSansPro-It.otf), sans-serif;
+  font-family: "MyFont";
+  src: url(https://www.fontsquirrel.com/fonts/source-sans-pro);
 }
 
 body {
@@ -39,15 +39,14 @@ header nav img {
 header nav div {
   width: 234px;
   height: 15px;
-  font-family: "MyFont-lite", sans-serif;
   /* margin-top: 0px; */
-  margin-left: 900px;
+  margin-left: 1000px;
   text-decoration: none;
   display: flex;
 }
 
 header nav div a {
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFont", sans-serif;
   text-decoration: none;
   list-style: none;
   margin-right: 10px;
@@ -55,7 +54,7 @@ header nav div a {
 }
 
 nav a {
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFont", sans-serif;
   font-weight: 700;
   font-size: 12px;
   line-height: 15.08px;
@@ -99,16 +98,16 @@ main {
 }
 
 .main-div {
-  width: 700px;
+  width: 800px;
   height: 220px;
-  margin-top: 220px;
-  margin-left: 377px;
+  margin-top: 200px;
+  margin-left: 430px;
 }
 
 main div h1 {
-  font-family: " MyFont-lite";
+  font-family: " myFont";
   font-weight: 700;
-  font-size: 110.84px;
+  font-size: 139.84px;
   line-height: 150px;
   text-align: center;
 }
@@ -118,7 +117,7 @@ main div h1 {
   height: 20px;
   margin-top: 361px;
   margin-left: 230px;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: myFont;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -131,7 +130,7 @@ main div h1 {
   height: 20px;
   margin-top: 361px;
   margin-left: 60px;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: myFont;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -144,7 +143,7 @@ main div h1 {
   height: 20px;
   margin-top: 361px;
   margin-left: 60px;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: myFont;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -168,7 +167,7 @@ main div button {
   height: 18px;
   margin-top: 4px;
   margin-left: 3px;
-  font-family: " MyFont-lite", sans-serif;
+  font-family: " MyFont ", sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 18px;
@@ -188,9 +187,9 @@ main section div h2 {
   width: 290px;
   height: 40px;
   margin-top: 200px;
-  margin-left: 604px;
-  font-family: "MyFont-lite", sans-serif;
-  /* font-weight: 700; */
+  margin-left: 690px;
+  font-family: myFont;
+  font-weight: 700;
   font-size: 32px;
   line-height: 40.22px;
   text-align: center;
@@ -203,17 +202,13 @@ main section div h2 span {
   text-align: center;
 }
 
-/* .span-header {
-  font-weight: 300;
-} */
-
 /* Pros section edit */
 
 .Pros-section {
   width: 1009px;
   height: 193px;
-  margin-left: 280px;
-  margin-top: 70px;
+  margin-left: 320px;
+  margin-top: 90px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -223,7 +218,7 @@ section div h3 {
   width: 150px;
   height: 27px;
   margin-top: 5px;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: Myfont;
   font-weight: 900;
   font-size: 18px;
   line-height: 27px;
@@ -235,7 +230,7 @@ section div p {
   width: 150px;
   height: 48px;
   margin-top: 5px;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: Myfont;
   font-weight: 400;
   font-size: 16px;
   font-style: italic;
@@ -291,7 +286,7 @@ section div p {
 .testimonials {
   width: 1228px;
   height: 310px;
-  margin-left: 140px;
+  margin-left: 230px;
   margin-top: 40px;
   /* display: flex; */
   /* background-color: rgb(77, 75, 75); */
@@ -371,7 +366,7 @@ section div p {
   height: 20px;
   margin-top: 10px;
   margin-left: 482px;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFonts", sans-serif;
   font-weight: 300;
   font-size: 32px;
   line-height: 40.22px;
@@ -383,7 +378,7 @@ section div p {
   height: 20px;
   margin-top: 20px;
   margin-left: 13px;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFonts", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 20.11px;
@@ -394,7 +389,7 @@ section div p {
   width: 242px;
   height: 48px;
   left: 13px;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFonts", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -406,7 +401,7 @@ h4 {
   height: 27px;
   margin-top: -33px;
   margin-left: 55px;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFonts", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 27px;
@@ -425,7 +420,7 @@ h4 {
   height: 27px;
   margin-top: -20px;
   margin-left: 199px;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFonts", sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 27px;
@@ -444,15 +439,15 @@ h4 {
   width: 350px;
   height: 40px;
   padding-top: 40px;
-  margin-left: 600px;
-  font-family: "MyFont-lite", sans-serif;
+  margin-left: 680px;
+  font-family: "MyFonts", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 40.22px;
 }
 
 .membership-span {
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFonts", sans-serif;
   font-weight: 300;
   font-size: 32px;
   line-height: 40.22px;
@@ -462,7 +457,7 @@ h4 {
 .membership-div {
   width: 1100px;
   margin-top: 80px;
-  margin-left: 200px;
+  margin-left: 280px;
   display: flex;
   justify-content: center;
   /* border: 2px solid #ffffff; */
@@ -472,7 +467,7 @@ h4 {
   width: 162px;
   height: 44px;
   margin-top: 75px;
-  margin-left: 670px;
+  margin-left: 750px;
   border-radius: 22px;
   background-color: #c271ff;
   color: #ffffff;
@@ -497,7 +492,7 @@ h4 {
   height: 26px;
   margin-left: 0.5px;
   color: #ffffff;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFonts", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
@@ -508,7 +503,7 @@ h4 {
   height: 52px;
   margin-left: 18px;
   color: #ffffff;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFonts", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
@@ -530,8 +525,8 @@ h4 {
   width: 10px;
   height: 20px;
   margin-top: -200px;
-  margin-left: -300px;
-  font-family: "MyFont-lite", sans-serif;
+  margin-left: -420px;
+  font-family: "MyFonts", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 26.42px;
@@ -549,7 +544,7 @@ h4 {
   height: 192px;
   margin-top: 10px;
   text-align: left;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFonts", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -560,7 +555,7 @@ h4 {
   width: 200px;
   height: 20px;
   text-align: left;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFonts", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20.11px;
@@ -607,7 +602,7 @@ h4 {
   width: 175px;
   height: 30px;
   margin-top: 100px;
-  margin-left: 165px;
+  margin-left: 270px;
 }
 
 .social-icons {
@@ -621,9 +616,9 @@ h4 {
   width: 120px;
   height: 15px;
   margin-top: 70px;
-  margin-left: 680px;
+  margin-left: 780px;
   opacity: 35.17%;
-  font-family: "MyFont-lite", sans-serif;
+  font-family: "MyFonts", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
