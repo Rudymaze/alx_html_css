@@ -322,7 +322,7 @@ section div p {
   height: 62px;
   position: absolute;
   top: 1680px;
-  left: 280px;
+  left: 380px;
   background-color: #ffffff;
   border-radius: 50%;
 }
@@ -331,7 +331,7 @@ section div p {
   height: 62px;
   position: absolute;
   top: 1680px;
-  left: 565px;
+  left: 665px;
   background-color: #ffffff;
   border-radius: 50%;
 }
@@ -340,7 +340,7 @@ section div p {
   height: 62px;
   position: absolute;
   top: 1680px;
-  left: 870px;
+  left: 955px;
   background-color: #ffffff;
   border-radius: 50%;
 }
@@ -349,7 +349,7 @@ section div p {
   height: 62px;
   position: absolute;
   top: 1680px;
-  left: 1155px;
+  left: 1244px;
   background-color: #ffffff;
   border-radius: 50%;
 }
@@ -385,10 +385,15 @@ section div p {
   color: #071629;
 }
 
+.sad-smile {
+  margin-left: -11px;
+}
+
 .video-cards-text {
   width: 242px;
   height: 48px;
-  left: 13px;
+  margin-left: 13px;
+  text-align: left;
   font-family: "MyFonts", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -525,7 +530,7 @@ h4 {
   width: 10px;
   height: 20px;
   margin-top: -200px;
-  margin-left: -420px;
+  margin-left: -397px;
   font-family: "MyFonts", sans-serif;
   font-weight: 300;
   font-size: 16px;
