@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #ff6565;
+  --color-secondary: #071629;
+  --color-tertiary: #ffffff;
+}
+
+@font-face {
+  font-family: "SourceSanPro-Regular";
+  src: url(./fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+  font-family: "SourceSanPro-Bold";
+  src: url(./fonts/SourceSansPro-Bold.otf);
+}
+
+body {
+  width: 100%;
+  height: 3006px;
+  background-color: var(--color-tertiary);
+  opacity: 100%;
+}
+
+/* HEADER SECTION */
+
+header {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  color: var(--color-tertiary);
+  background-color: var(--color-secondary);
+}
+
+.logo {
+  width: 160px;
+  height: 32px;
+  margin-left: 70px;
+}
+
+.logo img {
+  width: 120px;
+  height: 30px;
+}
+
+header nav {
+  width: 270px;
+  height: 15px;
+  display: flex;
+  margin-left: 890px;
+  margin-top: 10px;
+  /* flex: auto; */
+}
+header nav a {
+  margin-right: 20px;
+  font-family: "SourceSanPro-Bold";
+  font-size: 12px;
+  color: var(--color-tertiary);
+  text-decoration: none;
+}
