@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -50,11 +51,11 @@ header {
 
 .logo img {
   width: 120px;
-  height: 30px;
+  height: 35px;
 }
 
 header nav {
-  width: 270px;
+  width: 290px;
   height: 15px;
   display: flex;
   margin-left: 930px;
@@ -64,7 +65,7 @@ header nav {
 header nav a {
   margin-right: 20px;
   font-family: "SourceSanPro-Bold";
-  font-size: 12px;
+  font-size: 15px;
   color: var(--color-tertiary);
   text-decoration: none;
 }
@@ -131,4 +132,20 @@ button {
   font-size: 16px;
   text-align: center;
   opacity: 100%;
+}
+
+/* MOBILE VIEW */
+@media only screen and (max-width: 480px) {
+  header {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+  }
+  /* .logo {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 10px;
+    left: 5px;
+  } */
 }
