@@ -22,7 +22,7 @@
 
 body {
   width: 100%;
-  height: 3006px;
+  height: 3800px;
   background-color: var(--color-tertiary);
   opacity: 100%;
 }
@@ -158,7 +158,6 @@ button {
   margin-top: 210px;
   margin-left: calc(50% - 320px);
   color: var(--color-secondary);
-  border: 1px solid black;
 }
 
 .what-we-do-section h2 {
@@ -176,4 +175,14 @@ button {
   margin-top: 30px;
   text-align: center;
   opacity: 100%;
+}
+
+.what-we-do-icons {
+  width: 1000px;
+  height: 195px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-left: calc(50% - 500px);
 }
