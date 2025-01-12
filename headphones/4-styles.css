@@ -325,30 +325,30 @@ footer p {
 }
 
 /* MOBILE VIEW */
-/* @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   body {
     width: 480px;
     height: 4000;
     background-color: var(--color-tertiary);
     opacity: 100%;
-  } */
-/* header {
+  }
+  header {
     position: absolute;
     top: 10px;
     left: 0px;
-  }*/
+  }
 
-/* .logo {
+  .logo {
     position: absolute;
     width: 100%;
     height: 20px;
     top: 10px;
     left: 0px;
-  } */
+  }
 
-/* HEADER AND MAIN SECTION MOBILE VIEW */
+  /* HEADER AND MAIN SECTION MOBILE VIEW */
 
-/* main {
+  main {
     width: 480px;
     height: 860;
     background-image: url(./images/headphones_hero_1.jpg);
@@ -380,14 +380,12 @@ footer p {
     color: var(--color-tertiary);
     opacity: 100%;
     margin-top: 80%;
-    margin-left: 50px; */
-/* display: flex;
+    margin-left: 50px;
+    display: flex;
     flex-direction: column;
+  }
 
-    
-  } */
-
-/* .hero-content h2 {
+  .hero-content h2 {
     width: 388px;
     font-size: 32px;
     margin-left: 10px;
@@ -425,23 +423,23 @@ footer p {
     text-align: center;
     line-height: 26px;
     opacity: 100%;
-  } */
+  }
 
-/* MOBILE VIEW ABOUT SECTION */
-/* .what-we-do-section {
+  /* MOBILE VIEW ABOUT SECTION */
+  .what-we-do-section {
     width: 10px;
     height: 350px;
     background-color: var(--color-tertiary);
     margin-top: 20px;
-    opacity: 100%; */
-/* display: flex;
+    opacity: 100%;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
-/* justify-content: center; */
-/* border: 1px solid black;
+    align-items: center;
+    /*  justify-content: center; */
+    border: 1px solid black;
     background-color: #ff6565;
-  } */
-/* .what-we-do-section h2 {
+  }
+  .what-we-do-section h2 {
     font-family: "SourceSanPro-Regular";
     font-size: 32px;
     line-height: auto;
@@ -456,4 +454,4 @@ footer p {
     text-align: center;
     opacity: 100%;
   }
-} */
+}
